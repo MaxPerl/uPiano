@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.zacharyigielman.piano.upiano",
+    "description": "uPiano is a simple app where you are able to play a one octave piano. It has a piano graphic, each key playing the corresponding sound. It is a native app for Ubuntu written in QML and packaged in a Click Package.",
+    "architecture": "all",
+    "title": "uPiano",
+    "hooks": {
+        "Piano": {
+            "apparmor": "Piano.apparmor",
+            "desktop": "Piano.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Zachary Igielman <zacharyi123@gmail.com>",
+    "framework": "ubuntu-sdk-14.10"
+}
