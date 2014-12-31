@@ -9,7 +9,7 @@
             "desktop": "Piano.desktop"
         }
     },
-    "version": "1.0",
+    "version": "1.1",
     "maintainer": "Zachary Igielman <zacharyi123@gmail.com>",
     "framework": "ubuntu-sdk-14.10"
 }

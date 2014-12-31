@@ -243,81 +243,57 @@ MainView {
                 onExited: { playA.stop() }
             }
         }
-/*
-            MouseArea {
-                id: mouseAreaD1
-                x: units.gu(0/18)
-                y: units.gu((146)/18)
-                width: units.gu(425/18)
-                height: units.gu(149/18)
-                onPressed: { playD.play() }
-                onExited: { playD.stop() }
-            }*/
-
         SoundEffect {
             id: playC
-            source: "./C4.wav"
-            loops: SoundEffect.Infinite
+            source: "./C4_trimmed.wav"
         }
         SoundEffect {
             id: playCsharp
-            source: "./Csharp4.wav"
-            loops: SoundEffect.Infinite
+            source: "./Csharp4_trimmed.wav"
         }
         SoundEffect {
             id: playD
-            source: "./D4.wav"
-            loops: SoundEffect.Infinite
+            source: "./D4_trimmed.wav"
         }
         SoundEffect {
             id: playDsharp
-            source: "./Dsharp4.wav"
-            loops: SoundEffect.Infinite
+            source: "./Dsharp4_trimmed.wav"
         }
         SoundEffect {
             id: playE
-            source: "./E4.wav"
-            loops: SoundEffect.Infinite
+            source: "./E4_trimmed.wav"
         }
         SoundEffect {
             id: playF
-            source: "./F4.wav"
-            loops: SoundEffect.Infinite
+            source: "./F4_trimmed.wav"
         }
         SoundEffect {
             id: playFsharp
-            source: "./Fsharp4.wav"
-            loops: SoundEffect.Infinite
+            source: "./Fsharp4_trimmed.wav"
         }
         SoundEffect {
             id: playG
-            source: "./G4.wav"
-            loops: SoundEffect.Infinite
+            source: "./G4_trimmed.wav"
         }
         SoundEffect {
             id: playGsharp
-            source: "./Gsharp4.wav"
-            loops: SoundEffect.Infinite
+            source: "./Gsharp4_trimmed.wav"
         }
         SoundEffect {
             id: playA
-            source: "./A4.wav"
-            loops: SoundEffect.Infinite
+            source: "./A4_trimmed.wav"
         }
         SoundEffect {
             id: playAsharp
-            source: "./Asharp4.wav"
-            loops: SoundEffect.Infinite
+            source: "./Asharp4_trimmed.wav"
         }
         SoundEffect {
             id: playB
-            source: "./B4.wav"
-            loops: SoundEffect.Infinite
+            source: "./B4_trimmed.wav"
         }
         SoundEffect {
             id: playChigh
-            source: "./C5.wav"
-            loops: SoundEffect.Infinite
+            source: "./C5_trimmed.wav"
         }
     }
 }
