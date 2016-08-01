@@ -17,7 +17,7 @@ MainView {
      This property enables the application to change orientation
      when the device is rotated. The default is false.
     */
-    //automaticOrientation: true
+    automaticOrientation: false
 
     // Removes the old toolbar and enables new features of the new header.
     useDeprecatedToolbar: false
